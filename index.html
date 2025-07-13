@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaradhya - Where Devotion Meets Discovery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="om-symbol">🕉️</span>
+                <span class="brand-name">Aaradhya</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#offerings">Offerings</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="mandala-bg"></div>
+            <div class="temple-slideshow">
+                <div class="temple-slide active" style="background-image: url('https://images.unsplash.com/photo-1589308078059-be1415eab4c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')"></div>
+                <div class="temple-slide" style="background-image: url('https://img.freepik.com/premium-photo/watercolor-collage-famous-temples-tamil-nadu-day_1102-14795.jpg?w=1380&ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')"></div>
+                <div class="temple-slide" style="background-image: url('https://images.unsplash.com/photo-1542810634-71277d95dcbb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')"></div>
+                <div class="temple-slide" style="background-image: url('https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Aaradhya</h1>
+            <p class="hero-tagline">Where Devotion Meets Discovery</p>
+            <p class="hero-subtitle">Curated pooja kits and spiritual essentials for your sacred journey</p>
+            <button class="cta-button">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Aaradhya</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>At Aaradhya, we believe that spiritual living should be accessible, authentic, and beautiful. Our journey began with a simple vision: to simplify the path of devotion by curating everything you need for meaningful poojas and spiritual practices.</p>
+                    <p>From carefully selected ingredients to beautifully crafted kits, we bring you the essence of tradition with the convenience of modern living. Each product is thoughtfully chosen to enhance your spiritual experience and create moments of peace and connection.</p>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-om"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offerings Section -->
+    <section id="offerings" class="offerings">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Offerings</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="offerings-grid">
+                <div class="offering-card">
+                    <div class="offering-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                    </div>
+                    <div class="offering-content">
+                        <h3>Complete Pooja Kit</h3>
+                        <p>Everything you need for a traditional pooja ceremony - from agarbatti to kumkum, all in one beautiful package.</p>
+                        <div class="price">₹1,299</div>
+                        <div class="product-buttons" data-product="Complete Pooja Kit">
+                            <button class="add-to-cart" data-product="Complete Pooja Kit">Add to Cart</button>
+                            <div class="cart-controls" style="display:none">
+                                <button class="quantity-btn minus" data-product="Complete Pooja Kit">-</button>
+                                <span class="quantity-display" data-product="Complete Pooja Kit">0</span>
+                                <button class="quantity-btn plus" data-product="Complete Pooja Kit">+</button>
+                            </div>
+                            <button class="buy-now" data-product="Complete Pooja Kit">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="offering-card">
+                    <div class="offering-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                    </div>
+                    <div class="offering-content">
+                        <h3>Eco-Friendly Diya Set</h3>
+                        <p>Handcrafted clay diyas with pure ghee and cotton wicks - perfect for aarti and meditation.</p>
+                        <div class="price">₹499</div>
+                        <div class="product-buttons" data-product="Eco-Friendly Diya Set">
+                            <button class="add-to-cart" data-product="Eco-Friendly Diya Set">Add to Cart</button>
+                            <div class="cart-controls" style="display:none">
+                                <button class="quantity-btn minus" data-product="Eco-Friendly Diya Set">-</button>
+                                <span class="quantity-display" data-product="Eco-Friendly Diya Set">0</span>
+                                <button class="quantity-btn plus" data-product="Eco-Friendly Diya Set">+</button>
+                            </div>
+                            <button class="buy-now" data-product="Eco-Friendly Diya Set">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Us?</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Eco-Friendly</h3>
+                    <p>All our products are made with natural, sustainable materials that respect Mother Earth.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Verified Products</h3>
+                    <p>Every item is carefully sourced and verified for authenticity and quality.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-om"></i>
+                    </div>
+                    <h3>Rooted in Tradition</h3>
+                    <p>Our offerings are deeply connected to ancient wisdom and spiritual practices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Devotees Say</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Aaradhya's pooja kit transformed my daily prayers. Everything is so thoughtfully curated and the quality is exceptional. It's like having a temple at home."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Priya Sharma</h4>
+                            <span>Mumbai</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The eco-friendly diyas are absolutely beautiful! They burn clean and create such a peaceful atmosphere. Perfect for my meditation practice."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Rajesh Kumar</h4>
+                            <span>Delhi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Preview Section -->
+    <section class="instagram-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2>Follow Our Journey</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="instagram-grid">
+                <div class="instagram-post">
+                    <div class="post-image">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="post-overlay">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+                <div class="instagram-post">
+                    <div class="post-image">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="post-overlay">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+                <div class="instagram-post">
+                    <div class="post-image">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="post-overlay">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+                <div class="instagram-post">
+                    <div class="post-image">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="post-overlay">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="instagram-cta">
+                <a href="#" class="instagram-button">
+                    <i class="fab fa-instagram"></i>
+                    Follow @aaradhya
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="om-symbol">🕉️</span>
+                        <span class="brand-name">Aaradhya</span>
+                    </div>
+                    <p>Where devotion meets discovery. Curated spiritual essentials for your sacred journey.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> hello@aaradhya.com</p>
+                    <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    <a href="https://wa.me/919876543210" class="whatsapp-link">
+                        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                    </a>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Aaradhya. All rights reserved. | Made with ❤️ for spiritual seekers</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Glowing Diya -->
+    <div class="glowing-diya">
+        <div class="diya-container">
+            <div class="diya-shadow"></div>
+            <div class="diya-flame"></div>
+            <div class="diya-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
